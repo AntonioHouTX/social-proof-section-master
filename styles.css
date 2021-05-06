@@ -7,7 +7,7 @@
 body {
   background-color: hsl(0, 0%, 100%); /* White */
   color: hsl(300, 43%, 22%); /* Very Dark Magenta */
-  font-family: "Spartan";
+  font-family: "Spartan", sans-serif;
 }
 
 h1 {
@@ -39,6 +39,21 @@ h1 {
 .ratings {
   grid-column: 2 / 2;
   grid-row: 1 / 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.reviews {
+
+}
+
+.report_guru {
+
+}
+
+.besttech {
+
 }
 
 .customers {
