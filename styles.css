@@ -14,6 +14,10 @@ h1 {
   font-weight: 700;
 }
 
+.overview > p {
+  color: hsl(317, 3%, 59%); /* Venus */
+}
+
 .name,
 .heading {
   font-weight: 500;
@@ -34,6 +38,7 @@ h1 {
 .overview {
   grid-column: 1 / 1;
   grid-row: 1 / 1;
+  /* justify-content: left; */
 }
 
 .ratings {
@@ -44,16 +49,26 @@ h1 {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.reviews {
-
+.reviews,
+.report_guru,
+.besttech {
+  background-color: hsl(300, 24%, 96%); /* Light Grayish Magenta */
+  border-radius: 15px;
 }
 
-.report_guru {
+.reviews {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}  
 
+.report_guru {
+  grid-column: 1 / 1;
+  grid-row: 2 / 2;
 }
 
 .besttech {
-
+  grid-column: 1 / 1;
+  grid-row: 3 / 3;
 }
 
 .customers {
