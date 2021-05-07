@@ -58,8 +58,8 @@ h1 {
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat; */
   display: flex;
   margin: 0.125rem;
-  border-radius: 15px;
-  justify-content: left;
+  border-radius: 15px; 
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -106,6 +106,9 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: space-between;
+
 }
 
 .pic {
@@ -117,11 +120,11 @@ h1 {
 .anne {
   background-color: hsl(300, 43%, 22%); /* Dark Grayish Magenta */
   color:hsl(0, 0%, 100%); /* White */
-
+  margin: 25px;
+  padding: 20px;
 }
 
 .colton {
-  
 }
 
 .irene {
