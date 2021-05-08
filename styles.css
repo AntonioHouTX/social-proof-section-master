@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1025px) /* Desktop Version */ {
   body {
     background-color: hsl(0, 0%, 100%); /* White */
     color: hsl(300, 43%, 22%); /* Very Dark Magenta */
@@ -151,7 +151,12 @@
     margin-top: 10rem;
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 482px) and (max-width: 769px) /* Tablet Version */ {
+  
+}
+
+@media screen and (max-width: 481px) /* Mobile Version */ {
   body {
     background-color: hsl(0, 0%, 100%); /* White */
     color: hsl(300, 43%, 22%); /* Very Dark Magenta */
