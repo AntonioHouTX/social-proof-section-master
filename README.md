@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [HTML/CSS Site Using CSS Grid and Flexbox](https://www.frontendmentor.io/solutions/htmlcss-site-using-css-grid-and-flexbox-JQmiWnUPN)
 - Live Site URL: [Social Proof Section Project](https://antoniohoutx.github.io/social-proof-section-master/index.html)
 
 ## My process
