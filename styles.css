@@ -4,24 +4,7 @@
   box-sizing: border-box;
 }
 
-.stars {
-  width: 86px;
-}
 
-.star {
-  background-image: url("images/icon-star.svg");
-  background-repeat: repeat-x;
-}
-
-.rating {
-  margin-left: 1.5rem;
-}
-
-.reviews,
-.report_guru,
-.besttech p {
-  font-weight: 700;
-}
 
 @media screen and (min-width: 1025px) /* Desktop Version */ {
   body {
@@ -78,7 +61,24 @@
     border-radius: 10px;
     align-items: center;
   }
-
+  .stars {
+    width: 86px;
+  }
+  
+  .star {
+    background-image: url("images/icon-star.svg");
+    background-repeat: repeat-x;
+  }
+  
+  .rating {
+    margin-left: 1.5rem;
+  }
+  
+  .reviews,
+  .report_guru,
+  .besttech p {
+    font-weight: 700;
+  }
   .reviews {
     margin-left: 10rem;
     margin-right: 5rem;
@@ -219,9 +219,41 @@
     margin: 1.5rem 0rem;
     padding: 1rem;
     border-radius: 10px;
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .rating {
+    justify-content: center;
     align-items: center;
   }
 
+  .stars {
+    width: 86px;
+    /* text-align: center; */
+    /* justify-content: center;*/
+    /* align-items: center; */
+  }
+  
+  .reviews .stars {
+    text-align: center;
+  }
+
+  .star {
+    background-image: url("images/icon-star.svg");
+    background-repeat: repeat-x;
+  }
+  
+  .rating {
+    /* margin-left: 1.5rem; */
+  }
+  
+  .reviews,
+  .report_guru,
+  .besttech p {
+    font-weight: 700;
+  }
   .reviews {
     grid-row: 3 / 3;
   }
