@@ -38,7 +38,7 @@
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 1fr;
-    padding: 7.5rem 7.5rem 0 7.5rem;
+    padding: 6.66rem 4rem 0 4rem;
   }
 
   .overview {
