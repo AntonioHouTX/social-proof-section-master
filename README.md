@@ -106,4 +106,4 @@ Areas that I would like to continue to focus on in the future include unit measu
 
 ## Acknowledgments
 
-Once again, special thanks goes out to [Drull](https://github.com/drull1000) for his patience and guidance on this project.  His tips were invaluable.
+Once again, special thanks goes out to [Drull](https://github.com/drull1000) and the Slack community for their patience and guidance on this project.  Their tips were invaluable.
