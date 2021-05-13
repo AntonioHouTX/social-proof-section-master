@@ -64,9 +64,10 @@
 
   .stars {
     width: 86px;
-    /* text-align: center; */
-    /* justify-content: center;*/
-    /* align-items: center; */
+    margin: auto;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
   }
   
   .reviews .stars {
