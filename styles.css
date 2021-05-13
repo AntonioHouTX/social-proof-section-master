@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 481px) /* Mobile Version */ {
+@media screen and (min-width: 375px) /* Mobile Version */ {
   body {
     background-color: hsl(0, 0%, 100%); /* White */
     color: hsl(300, 43%, 22%); /* Very Dark Magenta */
